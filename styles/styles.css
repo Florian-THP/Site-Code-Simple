@@ -347,7 +347,7 @@ h3 {
     margin-left: 10px;
 }
 
-.each, .map, .select, .reject, .reduce, .find , .compact, .slice, .uniq, .reverse, .sort, .zip, .avenir {
+.each, .map, .select, .reject, .reduce, .find , .compact, .slice, .uniq, .reverse, .sort, .zip, .avenir, .color, .border, .width {
     background-color: #0c0c0c;
     width: 70%;
     height: 50px;
@@ -399,7 +399,7 @@ h3 {
     border-radius: 5px;
 }
 
-.flechebaseach, .flechebasmap, .flechebasselect, .flechebasreject, .flechebasfind, .flechebascompact, .flechebasslice, .flechebasuniq, .flechebasreverse, .flechebassort, .flechebaszip {
+.flechebaseach, .flechebasmap, .flechebasselect, .flechebasreject, .flechebasfind, .flechebascompact, .flechebasslice, .flechebasuniq, .flechebasreverse, .flechebassort, .flechebaszip, .flechebascolor, .flechebasborder, .flechebaswidth {
     width: 20px;
     margin-right: 20px;
     transition: transform 0.3s ease;
@@ -409,7 +409,7 @@ h3 {
     transform: rotate(180deg); /* Applique une rotation de 180 degrés */
 }
 
-.contenteach, .contentmap, .contentselect, .contentreject, .contentreduce, .contentfind, .contentcompact, .contentslice, .contentuniq, .contentreverse, .contentsort, .contentzip {
+.contenteach, .contentmap, .contentselect, .contentreject, .contentreduce, .contentfind, .contentcompact, .contentslice, .contentuniq, .contentreverse, .contentsort, .contentzip, .contentcolor, .contentborder, .contentwidth {
     display: none;
     background-color: #0c0c0c;
     width: 70%;
@@ -479,6 +479,26 @@ h3 {
     padding-bottom: 10px;
 }
 
+.terminalexempcss {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 10px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
 .load {
     color: #ffa200;
     font-size: 18px;
@@ -487,4 +507,22 @@ h3 {
     padding-right: 5px;
     padding-left: 5px;
     border-radius: 5px;
+}
+
+.codehtml {
+    font-size: 15px;
+}
+
+.htmlexempcolor {
+    color: #ff5733;
+}
+
+.htmlexempborder {
+    border: 2px solid red;
+}
+
+.htmlexempdiv {
+    width: 300px;
+    height: 30px;
+    background-color: blue;
 }

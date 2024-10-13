@@ -194,6 +194,59 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const eachDiv = document.querySelector('.width');
+    const contenteachDiv = document.querySelector('.contentwidth');
+    const flechebasImg = document.querySelector('.flechebaswidth');
+
+    eachDiv.addEventListener('click', function() {
+        // Vérifier si la div contenteach est actuellement visible
+        if (contenteachDiv.style.display === 'none' || contenteachDiv.style.display === '') {
+            contenteachDiv.style.display = 'block'; // Afficher la div
+            flechebasImg.classList.add('rotated'); // Ajouter la classe pour faire pivoter l'image
+        } else {
+            contenteachDiv.style.display = 'none'; // Cacher la div
+            flechebasImg.classList.remove('rotated'); // Enlever la classe pour remettre l'image à sa position d'origine
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const eachDiv = document.querySelector('.border');
+    const contenteachDiv = document.querySelector('.contentborder');
+    const flechebasImg = document.querySelector('.flechebasborder');
+
+    eachDiv.addEventListener('click', function() {
+        // Vérifier si la div contenteach est actuellement visible
+        if (contenteachDiv.style.display === 'none' || contenteachDiv.style.display === '') {
+            contenteachDiv.style.display = 'block'; // Afficher la div
+            flechebasImg.classList.add('rotated'); // Ajouter la classe pour faire pivoter l'image
+        } else {
+            contenteachDiv.style.display = 'none'; // Cacher la div
+            flechebasImg.classList.remove('rotated'); // Enlever la classe pour remettre l'image à sa position d'origine
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const eachDiv = document.querySelector('.color');
+    const contenteachDiv = document.querySelector('.contentcolor');
+    const flechebasImg = document.querySelector('.flechebascolor');
+
+    eachDiv.addEventListener('click', function() {
+        // Vérifier si la div contenteach est actuellement visible
+        if (contenteachDiv.style.display === 'none' || contenteachDiv.style.display === '') {
+            contenteachDiv.style.display = 'block'; // Afficher la div
+            flechebasImg.classList.add('rotated'); // Ajouter la classe pour faire pivoter l'image
+        } else {
+            contenteachDiv.style.display = 'none'; // Cacher la div
+            flechebasImg.classList.remove('rotated'); // Enlever la classe pour remettre l'image à sa position d'origine
+        }
+    });
+});
+
+
 function copierTexte() {
     // Récupérer le texte dans la div
     var texte = document.querySelector('.codecopier').innerText;
