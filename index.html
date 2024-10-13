@@ -1,809 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeSimple</title>
-    <head>
-        <link rel="stylesheet" href="styles/styles.css" media="(min-width: 1024px)">
-        <link rel="stylesheet" href="styles/stylesmobile.css" media="(max-width: 1023px)">
-    </head>
-    
-</head>
-    <body>
-        <div class="header">
-        <div class="menu">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CodeSimple</title>
+      <head>
+         <link rel="stylesheet" href="styles/styles.css" media="(min-width: 1024px)">
+         <link rel="stylesheet" href="styles/stylesmobile.css" media="(max-width: 1023px)">
+   </head>
+   </head>
+   <body>
+      <div class="header">
+         <div class="menu">
             <div class="divlien">
-             <a href="#" class="lien">Accueil</a>
-            <a href="#ruby" class="lien">Ruby</a>
-            <a href="#css" class="lien">CSS</a>
+               <a href="#" class="lien">Accueil</a>
+               <a href="#ruby" class="lien">Ruby</a>
+               <a href="#css" class="lien">CSS</a>
             </div>
             <div class="divbtnmenu">
                <button class="contactbtn">
-                 Contact
-                 <img class="flechebtn" src="img/fleche.png">
-             </button>
+               Contact
+               <img class="flechebtn" src="img/fleche.png">
+               </button>
             </div>
-        </div>  
-
-       <div class="container">
-        <div class="contentLeft">
-            <h1>Maîtrisez le Code</br>Simplement.</h1>
-            <div class="btnTitre">
-                <button class="commencerbtn">
-                    Commencer
-                    <img class="flechebtn" src="img/fleche.png">
-                </button>
+         </div>
+         <div class="container">
+            <div class="contentLeft">
+               <h1>Maîtrisez le Code</br>Simplement.</h1>
+               <div class="btnTitre">
+                  <button class="commencerbtn">
+                  Commencer
+                  <img class="flechebtn" src="img/fleche.png">
+                  </button>
+               </div>
             </div>
-        </div>
-
-        <div class="contentRight">
-            <div class="codepresen">
-                <h2>
-                    <span><img class="rubylogo" src="img/ruby.png">Ruby</span>
-                    <img class="copyaccueil" src="img/copy.png" alt="Copier" onclick="copierTexte()">
-                </h2>
-        <div class="codeaccueil">
-            <div class="codecopier">
-           <p class="commentaire">#Demande le nom de l'utilisateur</p>
-           <p class="lignecode">
-            <span class="motbleu">puts <span class="motvert">"Bonjour, quel est ton nom ?"</span></span>
-
-           </p>
-           <p class="commentaire">#Récupère la réponse de l'utilisateur avec gets.chomp</p>
-           <p class="lignecode">
-            <span><span class="motjaune">nom_utilisateur</span> =  <span class="motviolet">gets.chomp</span></span>
-            
-           
-           </p>
-           <p class="commentaire">#Affiche un message personnalisé</p>
-           <p class="lignecode">
-            <span class="motbleu">puts <span class="motvert">"Salut, #{<span class="motjaune">nom_utilisateur</span>} !"</span></span>
-            
-           </p>
+            <div class="contentRight">
+               <div class="codepresen">
+                  <h2>
+                     <span><img class="rubylogo" src="img/ruby.png">Ruby</span>
+                     <img class="copyaccueil" src="img/copy.png" alt="Copier" onclick="copierTexte()">
+                  </h2>
+                  <div class="codeaccueil">
+                     <div class="codecopier">
+                        <p class="commentaire">#Demande le nom de l'utilisateur</p>
+                        <p class="lignecode">
+                           <span class="motbleu">puts <span class="motvert">"Bonjour, quel est ton nom
+                           ?"</span></span>
+                        </p>
+                        <p class="commentaire">#Récupère la réponse de l'utilisateur avec gets.chomp</p>
+                        <p class="lignecode">
+                           <span><span class="motjaune">nom_utilisateur</span> = <span class="motviolet">gets.chomp</span></span>
+                        </p>
+                        <p class="commentaire">#Affiche un message personnalisé</p>
+                        <p class="lignecode">
+                           <span class="motbleu">puts <span class="motvert">"Salut, #{<span class="motjaune">nom_utilisateur</span>} !"</span></span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trait"></div>
+                  <div class="terminalaccueil">
+                     <div class="titreterminal">
+                     </div>
+                     <div class="marginLeft">
+                        <p>Bonjour, quel est ton nom ?</p>
+                        <p>> Florian</p>
+                        <p>Salut, Florian !</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-            <div class="trait"></div>
-            <div class="terminalaccueil">
-                <div class="titreterminal">
-                </div>
-                <div class="marginLeft">
-                    <p>Bonjour, quel est ton nom ?</p>
-                <p>> Florian</p>
-                <p>Salut, Florian !</p>
-                </div>
-            </div>
-            </div>
-        </div>
-       </div>
-    </div>
-
-    <div class="content" id="ruby">
-        <h3>
+         </div>
+      </div>
+      <div class="content" id="ruby">
+         <h3>
             <span class="titreruby">Ruby <img class="rubylogotitre" src="img/ruby.png"></span>
-        </h3>
-
-
-
-
-
-
-        <div class="each">
+         </h3>
+         <div class="each">
             <span class="name">.each</span>
             <img class="flechebaseach" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-        
-        <div class="contenteach">
-        <p class="description">La méthode <span class="namedescri">.each</span> est utilisée pour itérer sur chaque élément d'un tableau ou d'un hash.</p>
-        <div class="codedescri">
-            <div class="codeexemp">
-                <p class="commentaire">#Un tableau de noms</p>
-            </br>
-            <span class="motvert">noms</span>
-            <span class="motblanc">=</span>
-            <span class="motblanc">["<span class="motviolet">Alice</span>" , "<span class="motviolet">Bob</span>" , "<span class="motviolet">Charlie</span>"]</span>
-     
-        </br>
-           <p class="commentaire">#Parcourt chaque élément d'un tableau et affiche un message personnalisé</p>
-        </br>
-            <span class="motvert">noms<span class="motbleu">.each</span><span class="motjaune"> do </span><span class="motblanc">|<span class="motrouge">text</span>|</span></span>
-        </br>
-           <span class="motblanc">puts <span class="motvert">"Bonjour, #{<span class="motrouge">text</span>}!"</span></span>
-        </br>
-        <span class="motviolet">end</span>
-        <div class="terminalexemp">
-            > Bonjour, Alice!
-        </br>
-            > Bonjour, Bob!   
-        </br>
-            > Bonjour, Charlie!
-         
-      
-       
-        </div>
+         </div>
+         <div class="contenteach">
+            <p class="description">La méthode <span class="namedescri">.each</span> est utilisée pour itérer sur chaque
+               élément d'un tableau ou d'un hash.
+            </p>
+            <div class="codedescri">
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de noms</p>
+                  </br>
+                  <span class="motvert">noms</span>
+                  <span class="motblanc">=</span>
+                  <span class="motblanc">["<span class="motviolet">Alice</span>" , "<span class="motviolet">Bob</span>" , "<span class="motviolet">Charlie</span>"]</span>
+                  </br>
+                  <p class="commentaire">#Parcourt chaque élément d'un tableau et affiche un message personnalisé</p>
+                  </br>
+                  <span class="motvert">noms<span class="motbleu">.each</span><span class="motjaune"> do </span><span class="motblanc">|<span class="motrouge">text</span>|</span></span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">"Bonjour, #{<span class="motrouge">text</span>}!"</span></span>
+                  </br>
+                  <span class="motviolet">end</span>
+                  <div class="terminalexemp">
+                     > Bonjour, Alice!
+                     </br>
+                     > Bonjour, Bob!
+                     </br>
+                     > Bonjour, Charlie!
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-        <div class="map"> 
+         </div>
+         <div class="map">
             <span><span class="name">.map</span> & <span class="name">.upcase</span></span>
             <img class="flechebasmap" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentmap">
-            <p class="description">La méthode <span class="namedescri">.map</span> permet de générer un nouveau tableau en appliquant une fonction spécifique à chaque élément d'un tableau existant.</p>
-            <p class="description">La méthode <span class="namedescri">.upcase</span> convertit tous les caractères d'une chaîne en majuscules.</p>
-          
+         </div>
+         <div class="contentmap">
+            <p class="description">La méthode <span class="namedescri">.map</span> permet de générer un nouveau tableau
+               en appliquant une fonction spécifique à chaque élément d'un tableau existant.
+            </p>
+            <p class="description">La méthode <span class="namedescri">.upcase</span> convertit tous les caractères
+               d'une chaîne en majuscules.
+            </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de mots</p>
-                </br>
-                <span class="motvert">tableau</span>
-                <span class="motblanc">=</span>
-                <span class="motblanc">["<span class="motviolet">bonjour</span>","<span class="motviolet">ruby</span>","<span class="motviolet">programmation</span>"]</span>
-         
-            </br>
-               <p class="commentaire">#Utilisation de .map pour obtenir les mots en majuscules</p>
-            </br>
-                <span class="motblanc">mots_majuscules<span class="motblanc"> = </span><span class="motvert">tableau</span><span class="motbleu">.map</span><span class="motjaune"> do </span><span class="motblanc">|<span class="motrouge">mot</span>|</span></span>
-            </br>
-               <span class="motrouge">mot<span class="motbleu">.upcase</span></span><span class="commentaire">#.upcase convertit tous les caractères d'une chaîne en majuscules.</span>
-            </br>
-            <span class="motviolet">end</span>
-        </br>
-    </br>
-        <span class="motblanc">puts <span class="motvert">mots_majuscules</span></span>
-            <div class="terminalexemp">
-                > BONJOUR
-            </br>
-                > RUBY
-            </br>
-                > PROGRAMMATION
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de mots</p>
+                  </br>
+                  <span class="motvert">tableau</span>
+                  <span class="motblanc">=</span>
+                  <span class="motblanc">["<span class="motviolet">bonjour</span>","<span class="motviolet">ruby</span>","<span class="motviolet">programmation</span>"]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .map pour obtenir les mots en majuscules</p>
+                  </br>
+                  <span class="motblanc">mots_majuscules<span class="motblanc"> = </span><span class="motvert">tableau</span><span class="motbleu">.map</span><span class="motjaune"> do
+                  </span><span class="motblanc">|<span class="motrouge">mot</span>|</span></span>
+                  </br>
+                  <span class="motrouge">mot<span class="motbleu">.upcase</span></span><span class="commentaire">#.upcase convertit tous les caractères d'une chaîne en majuscules.</span>
+                  </br>
+                  <span class="motviolet">end</span>
+                  </br>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">mots_majuscules</span></span>
+                  <div class="terminalexemp">
+                     > BONJOUR
+                     </br>
+                     > RUBY
+                     </br>
+                     > PROGRAMMATION
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-        <div class="select"> 
+         </div>
+         <div class="select">
             <span><span class="name">.select</span> & <span class="name">.even?</span></span>
             <img class="flechebasselect" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentselect">
-            <p class="description">La méthode <span class="namedescri">.select</span> est utilisée pour filtrer les éléments d'un tableau ou d'un hash.</p>
-            <p class="description">La méthode <span class="namedescri">.even?</span> Vérifie si un nombre est pair. Si c'est le cas, cet élément est inclus dans le nouveau tableau.</p>
-            
-            
+         </div>
+         <div class="contentselect">
+            <p class="description">La méthode <span class="namedescri">.select</span> est utilisée pour filtrer les
+               éléments d'un tableau ou d'un hash.
+            </p>
+            <p class="description">La méthode <span class="namedescri">.even?</span> Vérifie si un nombre est pair. Si
+               c'est le cas, cet élément est inclus dans le nouveau tableau.
+            </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de nombres</p>
-                </br>
-                <span class="motvert">nombres</span>
-                <span class="motblanc">=</span>
-                <span class="motblanc">[<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">6</span>,<span class="motviolet">7</span>,<span class="motviolet">8</span>,<span class="motviolet">9</span>,<span class="motviolet">10</span>]</span>
-         
-            </br>
-               <p class="commentaire">#Sélectionne les nombres pairs</p>
-            </br>
-                <span class="motblanc">nombres_pairs = </span><span class="motvert">nombres<span class="motbleu">.select</span><span class="motjaune"> do </span><span class="motblanc">|<span class="motrouge">chiffre</span>|</span></span>
-            </br>
-               <span class="motrouge">chiffre<span class="motbleu">.even?</span></span>
-            </br>
-            <span class="motviolet">end</span>
-        </br>
-        </br>
-            <span class="motblanc">puts <span class="motvert">nombres_pairs</span></span>
-            <div class="terminalexemp">
-                > 2
-            </br>
-                > 4  
-            </br>
-                > 6
-            </br>
-                > 8
-            </br>
-                > 10
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de nombres</p>
+                  </br>
+                  <span class="motvert">nombres</span>
+                  <span class="motblanc">=</span>
+                  <span class="motblanc">[<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">6</span>,<span class="motviolet">7</span>,<span class="motviolet">8</span>,<span class="motviolet">9</span>,<span class="motviolet">10</span>]</span>
+                  </br>
+                  <p class="commentaire">#Sélectionne les nombres pairs</p>
+                  </br>
+                  <span class="motblanc">nombres_pairs = </span><span class="motvert">nombres<span class="motbleu">.select</span><span class="motjaune"> do </span><span class="motblanc">|<span class="motrouge">chiffre</span>|</span></span>
+                  </br>
+                  <span class="motrouge">chiffre<span class="motbleu">.even?</span></span>
+                  </br>
+                  <span class="motviolet">end</span>
+                  </br>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">nombres_pairs</span></span>
+                  <div class="terminalexemp">
+                     > 2
+                     </br>
+                     > 4
+                     </br>
+                     > 6
+                     </br>
+                     > 8
+                     </br>
+                     > 10
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="reject"> 
-            <span><span class="name">.reject</span> &  <span class="name">.start_with?</span></span>
+         </div>
+         <div class="reject">
+            <span><span class="name">.reject</span> & <span class="name">.start_with?</span></span>
             <img class="flechebasreject" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentreject">
-            <p class="description">La méthode <span class="namedescri">.reject</span> est utilisée pour filtrer les éléments d'un tableau ou d'un hash en excluant ceux qui satisfont une certaine condition.</p>
-            <p class="description">La méthode <span class="namedescri">.start_with?</span> est utilisée pour vérifier si une chaîne commence par un ou plusieurs caractères spécifiques. Elle retourne <span class="namedescri">true</span> si la chaîne commence par ces caractères, et <span class="namedescri">false</span> sinon.</p>
-            
-            
+         </div>
+         <div class="contentreject">
+            <p class="description">La méthode <span class="namedescri">.reject</span> est utilisée pour filtrer les
+               éléments d'un tableau ou d'un hash en excluant ceux qui satisfont une certaine condition.
+            </p>
+            <p class="description">La méthode <span class="namedescri">.start_with?</span> est utilisée pour vérifier si
+               une chaîne commence par un ou plusieurs caractères spécifiques. Elle retourne <span class="namedescri">true</span> si la chaîne commence par ces caractères, et <span class="namedescri">false</span> sinon.
+            </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de mots</p>
-                </br>
-                <span><span class="motvert">mots</span> =  <span class="motblanc">["<span class="motviolet">pomme</span>","<span class="motviolet">banane</span>","<span class="motviolet">cerise</span>","<span class="motviolet">avocat</span>"]</span>
-               
-               
-         
-            </br>
-               <p class="commentaire">#Exclut les mots qui commencent par la lettre 'a'</p>
-            </br>
-                <span class="motblanc">mots_sans_a = </span><span class="motvert">mots<span class="motbleu">.reject</span><span class="motjaune"> do</span><span class="motblanc"> |<span class="motrouge">mot</span>|</span></span>
-            </br>
-               <span class="motrouge">mot<span class="motbleu">.start_with?</span><span class="motblanc">(<span class="motvert">'a'</span>)</span>
-            </br>
-            <span class="motviolet">end</span>
-        </br>
-        </br>
-            <span class="commentaire">#Affichage des mots qui ne commencent pas par 'a'</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">mots_sans_a</span></span>
-            <div class="terminalexemp">
-                > pomme
-            </br>
-                > banane 
-            </br>
-                > cerise
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de mots</p>
+                  </br>
+                  <span><span class="motvert">mots</span> = <span class="motblanc">["<span class="motviolet">pomme</span>","<span class="motviolet">banane</span>","<span class="motviolet">cerise</span>","<span class="motviolet">avocat</span>"]</span>
+                  </br>
+                  <p class="commentaire">#Exclut les mots qui commencent par la lettre 'a'</p>
+                  </br>
+                  <span class="motblanc">mots_sans_a = </span><span class="motvert">mots<span class="motbleu">.reject</span><span class="motjaune"> do</span><span class="motblanc">
+                  |<span class="motrouge">mot</span>|</span></span>
+                  </br>
+                  <span class="motrouge">mot<span class="motbleu">.start_with?</span><span class="motblanc">(<span class="motvert">'a'</span>)</span>
+                  </br>
+                  <span class="motviolet">end</span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage des mots qui ne commencent pas par 'a'</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">mots_sans_a</span></span>
+                  <div class="terminalexemp">
+                     > pomme
+                     </br>
+                     > banane
+                     </br>
+                     > cerise
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-        
-
-
-
-
-      
-
-        <div class="find"> 
+         </div>
+         <div class="find">
             <span class="name">.find</span>
             <img class="flechebasfind" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentfind">
-            <p class="description">La méthode <span class="namedescri">.find</span> est utilisée pour rechercher et retourner le premier élément d'un tableau ou d'un hash qui satisfait une condition spécifiée dans le bloc. Si aucun élément ne correspond, elle retourne <span class="namedescri">nil</span>.</p>
+         </div>
+         <div class="contentfind">
+            <p class="description">La méthode <span class="namedescri">.find</span> est utilisée pour rechercher et
+               retourner le premier élément d'un tableau ou d'un hash qui satisfait une condition spécifiée dans le
+               bloc. Si aucun élément ne correspond, elle retourne <span class="namedescri">nil</span>.
+            </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de nombres</p>
-                </br>
-                <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">6</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .find pour trouver le premier nombre pair</p>
-            </br>
-                <span class="motblanc">premier_pair = </span><span class="motvert">nombres<span class="motbleu">.find</span><span class="motjaune"> do</span><span class="motblanc"> |<span class="motrouge">chiffre</span>|</span></span>
-            </br>
-               <span class="motrouge">chiffre<span class="motbleu">.even?</span><span class="motblanc"></span>
-            </br>
-            <span class="motviolet">end</span>
-        </br>
-        </br>
-            <span class="commentaire">#Affichage du premier nombre pair trouvé</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">premier_pair</span></span>
-            <div class="terminalexemp">
-                > 2
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de nombres</p>
+                  </br>
+                  <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">6</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .find pour trouver le premier nombre pair</p>
+                  </br>
+                  <span class="motblanc">premier_pair = </span><span class="motvert">nombres<span class="motbleu">.find</span><span class="motjaune"> do</span><span class="motblanc"> |<span class="motrouge">chiffre</span>|</span></span>
+                  </br>
+                  <span class="motrouge">chiffre<span class="motbleu">.even?</span><span class="motblanc"></span>
+                  </br>
+                  <span class="motviolet">end</span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du premier nombre pair trouvé</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">premier_pair</span></span>
+                  <div class="terminalexemp">
+                     > 2
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-        <div class="compact"> 
+         </div>
+         <div class="compact">
             <span class="name">.compact</span>
             <img class="flechebascompact" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentcompact">
-            <p class="description">La méthode <span class="namedescri">.compact</span> est utilisée pour supprimer tous les éléments <span class="namedescri">nil</span> d'un tableau et retourner un nouveau tableau sans ces valeurs. Si le tableau ne contient pas de <span class="namedescri">nil</span>, il reste inchangé.</p>
-
+         </div>
+         <div class="contentcompact">
+            <p class="description">La méthode <span class="namedescri">.compact</span> est utilisée pour supprimer tous
+               les éléments <span class="namedescri">nil</span> d'un tableau et retourner un nouveau tableau sans ces
+               valeurs. Si le tableau ne contient pas de <span class="namedescri">nil</span>, il reste inchangé.
+            </p>
             </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau avec des éléments nil</p>
-                </br>
-                <span><span class="motvert">valeurs</span> = [<span class="motviolet">1</span>,<span class="motbleu">nil</span>,<span class="motviolet">3</span>,<span class="motbleu">nil</span>,<span class="motviolet">5</span>,<span class="motbleu">nil</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .compact pour retirer tous les éléments nil</p>
-            </br>
-                <span class="motblanc">valeurs_sans_nil = </span><span class="motvert">valeurs<span class="motbleu">.compact</span></span>
-        
-        </br>
-        </br>
-            <span class="commentaire">#Affichage du tableau sans les nil</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">valeurs_sans_nil</span></span>
-            <div class="terminalexemp">
-                > 1
-            </br>
-                > 3
-            </br>
-                > 5
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau avec des éléments nil</p>
+                  </br>
+                  <span><span class="motvert">valeurs</span> = [<span class="motviolet">1</span>,<span class="motbleu">nil</span>,<span class="motviolet">3</span>,<span class="motbleu">nil</span>,<span class="motviolet">5</span>,<span class="motbleu">nil</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .compact pour retirer tous les éléments nil</p>
+                  </br>
+                  <span class="motblanc">valeurs_sans_nil = </span><span class="motvert">valeurs<span class="motbleu">.compact</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du tableau sans les nil</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">valeurs_sans_nil</span></span>
+                  <div class="terminalexemp">
+                     > 1
+                     </br>
+                     > 3
+                     </br>
+                     > 5
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-
-
-        <div class="slice"> 
+         </div>
+         <div class="slice">
             <span class="name">.slice</span>
             <img class="flechebasslice" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentslice">
-            <p class="description">La méthode <span class="namedescri">.slice</span> est pratique pour extraire une partie spécifique d'un tableau ou d'une chaîne sans altérer l'original. Si tu veux extraire un seul élément, tu donnes juste l'index ; si tu veux une portion, tu spécifies l'index et la longueur.</p>
-
+         </div>
+         <div class="contentslice">
+            <p class="description">La méthode <span class="namedescri">.slice</span> est pratique pour extraire une
+               partie spécifique d'un tableau ou d'une chaîne sans altérer l'original. Si tu veux extraire un seul
+               élément, tu donnes juste l'index ; si tu veux une portion, tu spécifies l'index et la longueur.
+            </p>
             </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de nombres</p>
-                </br>
-                <span><span class="motvert">valeurs</span> = [<span class="motviolet">10</span>,<span class="motviolet">20</span>,<span class="motviolet">30</span>,<span class="motviolet">40</span>,<span class="motviolet">50</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .slice pour extraire une portion du tableau à partir de l'index 1 avec une longueur de 3</p>
-            </br>
-                <span class="motblanc">portion_extraite = </span><span class="motvert">valeurs<span class="motbleu">.slice</span><span class="motblanc">(<span class="motviolet">1</span>, <span class="motviolet">3</span>)</span></span>
-        
-        </br>
-        </br>
-            <span class="commentaire">#Affichage de la portion extraite</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">portion_extraite</span></span>
-            <div class="terminalexemp">
-                > 20
-            </br>
-                > 30
-            </br>
-                > 40
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de nombres</p>
+                  </br>
+                  <span><span class="motvert">valeurs</span> = [<span class="motviolet">10</span>,<span class="motviolet">20</span>,<span class="motviolet">30</span>,<span class="motviolet">40</span>,<span class="motviolet">50</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .slice pour extraire une portion du tableau à partir de
+                     l'index 1 avec une longueur de 3
+                  </p>
+                  </br>
+                  <span class="motblanc">portion_extraite = </span><span class="motvert">valeurs<span class="motbleu">.slice</span><span class="motblanc">(<span class="motviolet">1</span>, <span class="motviolet">3</span>)</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage de la portion extraite</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">portion_extraite</span></span>
+                  <div class="terminalexemp">
+                     > 20
+                     </br>
+                     > 30
+                     </br>
+                     > 40
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-        <div class="reverse"> 
+         </div>
+         <div class="reverse">
             <span class="name">.reverse</span>
             <img class="flechebasreverse" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentreverse">
-            <p class="description">La méthode <span class="namedescri">.reverse</span> est utilisée pour inverser l'ordre des éléments d'un tableau ou des caractères d'une chaîne de caractères.</p>
-
+         </div>
+         <div class="contentreverse">
+            <p class="description">La méthode <span class="namedescri">.reverse</span> est utilisée pour inverser
+               l'ordre des éléments d'un tableau ou des caractères d'une chaîne de caractères.
+            </p>
             </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de nombres</p>
-                </br>
-                <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .reverse pour inverser l'ordre des éléments</p>
-            </br>
-                <span class="motblanc">nombres_inverses = </span><span class="motvert">nombres<span class="motbleu">.reverse</span></span>
-        
-        </br>
-        </br>
-            <span class="commentaire">#Affichage du tableau inversé</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">nombres_inverses</span></span>
-            <div class="terminalexemp">
-                > 5
-            </br>
-                > 4
-            </br>
-                > 3
-            </br>
-                > 2
-            </br>
-                > 1
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de nombres</p>
+                  </br>
+                  <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .reverse pour inverser l'ordre des éléments</p>
+                  </br>
+                  <span class="motblanc">nombres_inverses = </span><span class="motvert">nombres<span class="motbleu">.reverse</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du tableau inversé</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">nombres_inverses</span></span>
+                  <div class="terminalexemp">
+                     > 5
+                     </br>
+                     > 4
+                     </br>
+                     > 3
+                     </br>
+                     > 2
+                     </br>
+                     > 1
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-        <div class="sort"> 
+         </div>
+         <div class="sort">
             <span class="name">.sort</span>
             <img class="flechebassort" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentsort">
-            <p class="description">La méthode <span class="namedescri">.sort</span> est utilisée pour trier les éléments d'un tableau dans l'ordre croissant.</p>
-
+         </div>
+         <div class="contentsort">
+            <p class="description">La méthode <span class="namedescri">.sort</span> est utilisée pour trier les éléments
+               d'un tableau dans l'ordre croissant.
+            </p>
             </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Un tableau de nombres</p>
-                </br>
-                <span><span class="motvert">nombres</span> = [<span class="motviolet">5</span>,<span class="motviolet">2</span>,<span class="motviolet">8</span>,<span class="motviolet">1</span>,<span class="motviolet">4</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .sort pour trier les nombres dans l'ordre croissant</p>
-            </br>
-                <span class="motblanc">nombres_tries = </span><span class="motvert">nombres<span class="motbleu">.sort</span></span>
-        
-        </br>
-        </br>
-            <span class="commentaire">#Affichage du tableau trié</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">nombres_tries</span></span>
-            <div class="terminalexemp">
-                > 1
-            </br>
-                > 2
-            </br>
-                > 4
-            </br>
-                > 5
-            </br>
-                > 8
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau de nombres</p>
+                  </br>
+                  <span><span class="motvert">nombres</span> = [<span class="motviolet">5</span>,<span class="motviolet">2</span>,<span class="motviolet">8</span>,<span class="motviolet">1</span>,<span class="motviolet">4</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .sort pour trier les nombres dans l'ordre croissant</p>
+                  </br>
+                  <span class="motblanc">nombres_tries = </span><span class="motvert">nombres<span class="motbleu">.sort</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du tableau trié</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">nombres_tries</span></span>
+                  <div class="terminalexemp">
+                     > 1
+                     </br>
+                     > 2
+                     </br>
+                     > 4
+                     </br>
+                     > 5
+                     </br>
+                     > 8
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-        <div class="zip"> 
+         </div>
+         <div class="zip">
             <span><span class="name">.zip</span> & <span class="name">.inspect</span></span>
             <img class="flechebaszip" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentzip">
-            <p class="description">La méthode <span class="namedescri">.zip</span> est utilisée pour combiner les éléments de deux ou plusieurs tableaux en un tableau de tableaux. Chaque sous-tableau contient les éléments correspondants de chaque tableau d'origine. Si les tableaux n'ont pas la même taille, des <span class="namedescri">nil</span> seront ajoutés pour compléter.</p>
-            <p class="description">La méthode <span class="namedescri">.inspect</span> retourne une représentation sous forme de chaîne d'un objet en Ruby. Elle est souvent utilisée pour afficher de manière lisible les structures de données comme les tableaux ou les hachages, sans modifier l'objet d'origine.</p>
-
-        
+         </div>
+         <div class="contentzip">
+            <p class="description">La méthode <span class="namedescri">.zip</span> est utilisée pour combiner les
+               éléments de deux ou plusieurs tableaux en un tableau de tableaux. Chaque sous-tableau contient les
+               éléments correspondants de chaque tableau d'origine. Si les tableaux n'ont pas la même taille, des <span class="namedescri">nil</span> seront ajoutés pour compléter.
+            </p>
+            <p class="description">La méthode <span class="namedescri">.inspect</span> retourne une représentation sous
+               forme de chaîne d'un objet en Ruby. Elle est souvent utilisée pour afficher de manière lisible les
+               structures de données comme les tableaux ou les hachages, sans modifier l'objet d'origine.
+            </p>
             <div class="codedescri">
-                <div class="codeexemp">
-                    <p class="commentaire">#Deux tableaux</p>
-                </br>
-                <span><span class="motvert">noms</span> = ["<span class="motviolet">Alice</span>","<span class="motviolet">Bob</span>","<span class="motviolet">Charlie</span>"]</span>
-            </br>
-                <span><span class="motvert">ages </span> = [<span class="motviolet">25</span>,<span class="motviolet">30</span>,<span class="motviolet">35</span>]</span>
-         
-               
-         
-            </br>
-               <p class="commentaire">#Utilisation de .zip pour combiner les éléments des deux tableaux</p>
-            </br>
-                <span class="motblanc">noms_et_ages = </span><span class="motvert">noms<span class="motbleu">.zip</span><span class="motblanc">(<span class="motvert">ages</span>)</span></span>
-        
-        </br>
-        </br>
-            <span class="commentaire">#Affichage du tableau combiné</span>
-        </br>
-            <span class="motblanc">puts <span class="motvert">noms_et_ages<span class="motbleu">.inspect</span></span></span>
-            <div class="terminalexemp">
-                > [["<span class="motvert">Alice</span>",<span class="motviolet">25</span>], ["<span class="motvert">Bob</span>",<span class="motviolet">30</span>], ["<span class="motvert">Charlie</span>",<span class="motviolet">35</span>]]
-            
-             
-          
-           
+               <div class="codeexemp">
+                  <p class="commentaire">#Deux tableaux</p>
+                  </br>
+                  <span><span class="motvert">noms</span> = ["<span class="motviolet">Alice</span>","<span class="motviolet">Bob</span>","<span class="motviolet">Charlie</span>"]</span>
+                  </br>
+                  <span><span class="motvert">ages </span> = [<span class="motviolet">25</span>,<span class="motviolet">30</span>,<span class="motviolet">35</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .zip pour combiner les éléments des deux tableaux</p>
+                  </br>
+                  <span class="motblanc">noms_et_ages = </span><span class="motvert">noms<span class="motbleu">.zip</span><span class="motblanc">(<span class="motvert">ages</span>)</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du tableau combiné</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">noms_et_ages<span class="motbleu">.inspect</span></span></span>
+                  <div class="terminalexemp">
+                     > [["<span class="motvert">Alice</span>",<span class="motviolet">25</span>], ["<span class="motvert">Bob</span>",<span class="motviolet">30</span>], ["<span class="motvert">Charlie</span>",<span class="motviolet">35</span>]]
+                  </div>
+               </div>
             </div>
-                </div>
-    
-    
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-        <div class="uniq"> 
+         </div>
+         <div class="uniq">
             <span class="name">.uniq</span>
             <img class="flechebasuniq" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-        <div class="contentuniq">
-            <p class="description">La méthode <span class="namedescri">.uniq</span> est utilisée pour supprimer les doublons d'un tableau et retourner un nouveau tableau contenant uniquement des éléments uniques. Si le tableau ne contient pas de doublons, il reste inchangé.</p>
-
-        </p>
-        <div class="codedescri">
-            <div class="codeexemp">
-                <p class="commentaire">#Un tableau avec des éléments en doubles</p>
-            </br>
-            <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">1</span>]</span>
-     
-           
-     
-        </br>
-           <p class="commentaire">#Utilisation de .uniq pour retirer les doublons</p>
-        </br>
-            <span class="motblanc">nombres_uniques = </span><span class="motvert">nombres<span class="motbleu">.uniq</span></span>
-    
-    </br>
-    </br>
-        <span class="commentaire">#Affichage du tableau sans doublons</span>
-    </br>
-        <span class="motblanc">puts <span class="motvert">nombres_uniques</span></span>
-        <div class="terminalexemp">
-            > 1
-        </br>
-            > 2
-        </br>
-            > 3
-        </br>
-            > 4
-        </br>
-            > 5
-        
-         
-      
-       
-        </div>
+         </div>
+         <div class="contentuniq">
+            <p class="description">La méthode <span class="namedescri">.uniq</span> est utilisée pour supprimer les
+               doublons d'un tableau et retourner un nouveau tableau contenant uniquement des éléments uniques. Si le
+               tableau ne contient pas de doublons, il reste inchangé.
+            </p>
+            </p>
+            <div class="codedescri">
+               <div class="codeexemp">
+                  <p class="commentaire">#Un tableau avec des éléments en doubles</p>
+                  </br>
+                  <span><span class="motvert">nombres</span> = [<span class="motviolet">1</span>,<span class="motviolet">2</span>,<span class="motviolet">2</span>,<span class="motviolet">3</span>,<span class="motviolet">4</span>,<span class="motviolet">4</span>,<span class="motviolet">5</span>,<span class="motviolet">1</span>]</span>
+                  </br>
+                  <p class="commentaire">#Utilisation de .uniq pour retirer les doublons</p>
+                  </br>
+                  <span class="motblanc">nombres_uniques = </span><span class="motvert">nombres<span class="motbleu">.uniq</span></span>
+                  </br>
+                  </br>
+                  <span class="commentaire">#Affichage du tableau sans doublons</span>
+                  </br>
+                  <span class="motblanc">puts <span class="motvert">nombres_uniques</span></span>
+                  <div class="terminalexemp">
+                     > 1
+                     </br>
+                     > 2
+                     </br>
+                     > 3
+                     </br>
+                     > 4
+                     </br>
+                     > 5
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-        </div>
-
-
-
-        <div class="avenir">
+         </div>
+         <div class="avenir">
             <span class="load">En cours</span>
-        </div>
-
-
-    </br>
-</br>
-
-
-
-
-
-        <h3 id="css">
+         </div>
+         </br>
+         </br>
+         <h3 id="css">
             <span class="titreruby">CSS <img class="csslogotitre" src="img/css.png"></span>
-        </h3>
-
-
-        <div class="color"> 
+         </h3>
+         <div class="color">
             <span class="name">color:</span>
             <img class="flechebascolor" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-
-        <div class="contentcolor">
-            <p class="description">La propriété <span class="namedescri">color:</span> en CSS est utilisée pour définir la couleur du texte d'un élément HTML. Elle accepte différentes valeurs, y compris des noms de couleurs, des codes hexadécimaux, des valeurs RGB et RGBA, ainsi que des valeurs HSL et HSLA.</p>
-
-        </p>
-        <div class="codedescri">
-            <div class="codeexemp"> 
-                <p class="commentaire">/* Un titre en HTML*/</p>
-       
-            <pre class="codehtml"> &lt;<span class="motbleu">h1</span>&gt;Bonjour le monde !&lt;<span class="motbleu">/h1</span>&gt;</pre>
-    
-                <p class="commentaire">/* Changer la couleur du texte d'un titre en CSS */</p>
-            </br>
-           <span>h1 {</span>
-           </br>
-            <span class="motvert">color</span> : <span class="motviolet">#ff5733</span>;
-        </br>
-        <span>}</span>
-     
-      
-
-    </br>
-     
-        <div class="terminalexempcss">
-          <span class="htmlexempcolor">Bonjour le monde !</span>       
-        </div>
+         </div>
+         <div class="contentcolor">
+            <p class="description">La propriété <span class="namedescri">color:</span> en CSS est utilisée pour définir
+               la couleur du texte d'un élément HTML. Elle accepte différentes valeurs, y compris des noms de couleurs,
+               des codes hexadécimaux, des valeurs RGB et RGBA, ainsi que des valeurs HSL et HSLA.
+            </p>
+            </p>
+            <div class="codedescri">
+               <div class="codeexemp">
+                  <p class="commentaire">/* Un titre en HTML*/</p>
+                  <pre class="codehtml"> &lt;<span class="motbleu">h1</span>&gt;Bonjour le monde !&lt;<span class="motbleu">/h1</span>&gt;</pre>
+                  <p class="commentaire">/* Changer la couleur du texte d'un titre en CSS */</p>
+                  </br>
+                  <span>h1 {</span>
+                  </br>
+                  <span class="motvert">color</span> : <span class="motviolet">#ff5733</span>;
+                  </br>
+                  <span>}</span>
+                  </br>
+                  <div class="terminalexempcss">
+                     <span class="htmlexempcolor">Bonjour le monde !</span>
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-        </div>
-
-
-
-        <div class="border"> 
+         </div>
+         <div class="border">
             <span class="name">border:</span>
             <img class="flechebasborder" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-
-        <div class="contentborder">
-            <p class="description">La propriété <span class="namedescri">border:</span> en CSS est utilisée pour définir les bordures des éléments HTML. Elle permet de spécifier la largeur, le style et la couleur de la bordure d'un élément.</p>
-
-        </p>
-        <div class="codedescri">
-            <div class="codeexemp"> 
-                <p class="commentaire">/* Un paragraphe en HTML*/</p>
-       
-            <pre class="codehtml"> &lt;<span class="motbleu">p</span>&gt;Mon super text<span class="motbleu">/p</span>&gt;</pre>
-    
-                <p class="commentaire">/* Appliquer une bordure à un paragraphe */</p>
-            </br>
-           <span>p {</span>
-           </br>
-            <span class="motvert">border</span> : <span class="motviolet">2px</span><span class="motjaune"> solid</span><span class="motrouge"> red</span>;
-        </br>
-        <span>}</span>
-     
-      
-
-    </br>
-     
-        <div class="terminalexempcss">
-          <span class="htmlexempborder">Mon super text</span>       
-        </div>
+         </div>
+         <div class="contentborder">
+            <p class="description">La propriété <span class="namedescri">border:</span> en CSS est utilisée pour définir
+               les bordures des éléments HTML. Elle permet de spécifier la largeur, le style et la couleur de la
+               bordure d'un élément.
+            </p>
+            </p>
+            <div class="codedescri">
+               <div class="codeexemp">
+                  <p class="commentaire">/* Un paragraphe en HTML*/</p>
+                  <pre class="codehtml"> &lt;<span class="motbleu">p</span>&gt;Mon super text<span class="motbleu">/p</span>&gt;</pre>
+                  <p class="commentaire">/* Appliquer une bordure à un paragraphe */</p>
+                  </br>
+                  <span>p {</span>
+                  </br>
+                  <span class="motvert">border</span> : <span class="motviolet">2px</span><span class="motjaune">
+                  solid</span><span class="motrouge"> red</span>;
+                  </br>
+                  <span>}</span>
+                  </br>
+                  <div class="terminalexempcss">
+                     <span class="htmlexempborder">Mon super text</span>
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-        </div>
-
-
-
-        <div class="width"> 
+         </div>
+         <div class="width">
             <span><span class="name">width:</span> & <span class="name">height:</span></span>
             <img class="flechebaswidth" src="img/flechebas.png" alt="Flèche bas">
-        </div>
-
-
-        <div class="contentwidth">
-            <p class="description">La propriété <span class="namedescri">width:</span> en CSS est utilisée pour définir la largeur d'un élément HTML. Elle peut être spécifiée en valeurs absolues (comme des pixels) ou en valeurs relatives (comme des pourcentages).</p>
-            <p class="description">La propriété <span class="namedescri">height:</span> en CSS est utilisée pour définir la hauteur d'un élément HTML. Elle peut également être spécifiée en valeurs absolues (comme des pixels) ou en valeurs relatives (comme des pourcentages).</p>
-
-        </p>
-        <div class="codedescri">
-            <div class="codeexemp"> 
-                <p class="commentaire">/* Une div en HTML*/</p>
-       
-            <pre class="codehtml"> &lt;<span class="motbleu">div</span>&gt;Ma super DIV<span class="motbleu">div</span>&gt;</pre>
-    
-                <p class="commentaire">/* Définir la largeur, la hauteur et la couleur d'une Div */</p>
-            </br>
-           <span>div {</span>
-           </br>
-            <span class="motvert">width</span> : <span class="motbleu">3OO</span>px;
-        </br>
-            <span class="motvert">height</span> : <span class="motbleu">3O</span>px;
-        </br>
-            <span class="motvert">background-color</span> : <span class="motbleu">blue</span>;
-        </br>
-        <span>}</span>
-     
-      
-
-    </br>
-     
-        <div class="terminalexempcss">
-          <div class="htmlexempdiv">Ma super DIV</div>       
-        </div>
+         </div>
+         <div class="contentwidth">
+            <p class="description">La propriété <span class="namedescri">width:</span> en CSS est utilisée pour définir
+               la largeur d'un élément HTML. Elle peut être spécifiée en valeurs absolues (comme des pixels) ou en
+               valeurs relatives (comme des pourcentages).
+            </p>
+            <p class="description">La propriété <span class="namedescri">height:</span> en CSS est utilisée pour définir
+               la hauteur d'un élément HTML. Elle peut également être spécifiée en valeurs absolues (comme des pixels)
+               ou en valeurs relatives (comme des pourcentages).
+            </p>
+            </p>
+            <div class="codedescri">
+               <div class="codeexemp">
+                  <p class="commentaire">/* Une div en HTML*/</p>
+                  <pre class="codehtml"> &lt;<span class="motbleu">div</span>&gt;Ma super DIV<span class="motbleu">div</span>&gt;</pre>
+                  <p class="commentaire">/* Définir la largeur, la hauteur et la couleur d'une Div */</p>
+                  </br>
+                  <span>div {</span>
+                  </br>
+                  <span class="motvert">width</span> : <span class="motbleu">3OO</span>px;
+                  </br>
+                  <span class="motvert">height</span> : <span class="motbleu">3O</span>px;
+                  </br>
+                  <span class="motvert">background-color</span> : <span class="motbleu">blue</span>;
+                  </br>
+                  <span>}</span>
+                  </br>
+                  <div class="terminalexempcss">
+                     <div class="htmlexempdiv">Ma super DIV</div>
+                  </div>
+               </div>
             </div>
-
-
-        </div>
-        </div>
-
-
-
-
-
-
-        <div class="avenir">
+         </div>
+         <div class="avenir">
             <span class="load">En cours</span>
-        </div>
-
-
-
-
-
-
-    </div>
-    <script src="script.js"></script>
-    </body>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>
