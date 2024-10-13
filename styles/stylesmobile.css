@@ -168,6 +168,7 @@ h1 {
     border: none;
     cursor: pointer;
     transform: scale(0.94);
+    text-decoration: none;
 }
 
 .commencerbtn:active {
